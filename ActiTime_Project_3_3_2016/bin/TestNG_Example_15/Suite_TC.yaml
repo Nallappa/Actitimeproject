@@ -1,0 +1,14 @@
+name: Acti-time Project
+tests:
+  - name: Time-
+    classes:
+      - TestNG_Example_15.TC_01
+
+  - name: Tasks
+    classes:
+      - TestNG_Example_15.TC_02
+
+  - name: User
+    classes:
+      - TestNG_Example_15.TC_03
+

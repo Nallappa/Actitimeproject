@@ -1,0 +1,27 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Practice Grouping">
+	<test name="Practice Grouping">
+	
+		<groups>
+		
+				<define name="all">
+						<include name="Car"/>
+						<include name="Sedan Car"/>
+				</define>
+						
+							<run>
+								<include name="all"/>
+							</run>
+			
+		</groups>
+
+		<classes>
+			<class name="TestNG_Example_15.Grouping_06" />
+		</classes>
+	</test>
+
+</suite>

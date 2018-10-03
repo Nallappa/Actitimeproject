@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Acti-time Project]">
+  <test thread-count="5" name="Tasks(failed)">
+    <classes>
+      <class name="TestNG_Example_15.TC_02">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Tasks"/>
+          <include name="login"/>
+          <include name="beforeClass"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- TestNG_Example_15.TC_02 -->
+    </classes>
+  </test> <!-- Tasks(failed) -->
+  <test thread-count="5" name="User(failed)">
+    <classes>
+      <class name="TestNG_Example_15.TC_03">
+        <methods>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="Users"/>
+          <include name="Logout"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNG_Example_15.TC_03 -->
+    </classes>
+  </test> <!-- User(failed) -->
+</suite> <!-- Failed suite [Acti-time Project] -->
